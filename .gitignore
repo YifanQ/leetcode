@@ -3,8 +3,14 @@
 Thumbs.db
 Desktop.ini
 
+#OS X
+.DS_Store
+# Thumbnails
+._*
+
 # Executables
 *.exe
+*.out
 
 # Python:
 *.py[cod]
