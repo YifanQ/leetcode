@@ -18,7 +18,10 @@ public:
 
         bool isP[n][n];
         int f[n];
-
+        //C.F.
+        //http://www.cnblogs.com/lichen782/p/4298615.html
+        //http://blog.csdn.net/ljphhj/article/details/22573983
+        //
         for(int i = 0; i<n; ++i) {
             f[i] = i;
             for(int j = 0; j<=i; ++j) {
