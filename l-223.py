@@ -11,11 +11,14 @@ class Solution:
     def computeArea(self, A, B, C, D, E, F, G, H):
         xL = [A, C, E, G]
         yL = [B, D, F, H]
-        sort(xL); sort(yL)
-        xL = unique_sorted(xL)
-        yL = unique_sorted(yL)
+        xL.sort(); yL.sort()
+        xL = self.unique_sorted(xL)
+        yL = self.unique_sorted(yL)
         xD = {xL[i]:i for i in xrange(len(xL))}
         yD = {yL[i]:i for i in xrange(len(yL))}
+        occ = [[0]*(len(xL)-1)]*(len(yL)-1)
+        print occ
+
 
 
     # http://stackoverflow.com/questions/480214/how-do-you-remove-duplicates-from-a-list-in-python-whilst-preserving-order
@@ -32,3 +35,6 @@ class Solution:
             if seq[i]!=seq[i-1]:
                 uniqueList.append(seq[i])
         return uniqueList
+
+x = Solution()
+x.computeArea(-3, 0, 3, 4, 0, -1, 9, 2)

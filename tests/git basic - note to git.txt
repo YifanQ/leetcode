@@ -1,0 +1,8 @@
+git push origin master
+git pull origin master
+
+git删除文件
+    rm add2.txt
+    git rm add2.txt
+    git commit -m "rm test"
+    git push web
