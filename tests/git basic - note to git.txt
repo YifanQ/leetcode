@@ -6,3 +6,9 @@ git删除文件
     git rm add2.txt
     git commit -m "rm test"
     git push web
+
+create mode 100644
+Following are the Git file modes :
+    0100000000000000 (040000): Directory
+    1000000110100100 (100644): Regular non-executable file
+    ...
