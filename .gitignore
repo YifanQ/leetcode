@@ -10,15 +10,15 @@
 # ._*
 
 # # Executables
-# *.exe
+*.exe
 # *.out
 
 # # Python:
 # *.py[cod]
 
-*
-!*.c
-!*.cpp
-!*.txt
-!*.py
-!*.input
+# *
+# !*.c
+# !*.cpp
+# !*.txt
+# !*.py
+# !*.input

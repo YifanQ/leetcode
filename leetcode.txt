@@ -1,0 +1,17 @@
+======
+77 Combinations
+all possible combination of k numbers in [1,n]
+
+complexity = all combinations, force an order to list all possibility.
+nested for loop
+for i1 = 1:n-k+1
+    for i2 = i1+1:n-k+2
+        ...
+
+backtracking
+
+
+======
+Maximal Rectangle
+https://leetcode.com/submissions/detail/32097516/
+
