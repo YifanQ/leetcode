@@ -1,0 +1,3 @@
+The C++ language has its own string class. which is a wrapper around char []
+
+It is mutable. In both C and C++, string constants (declared with the const qualifier) are immutable, but you can easily “cast away” the const qualifier, so the immutability is weakly enforced.
